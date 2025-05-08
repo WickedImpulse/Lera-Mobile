@@ -3,7 +3,7 @@ import { Box, Container, Grid, Typography, useTheme } from "@mui/material"; //
 import {
   default as contactCarSide,
   default as contactGreyCoat,
-} from "../assets/contact1.jpg";
+} from "../assets/contact1.JPG";
 
 const ContactSection = () => {
   const theme = useTheme(); // Use theme for divider color

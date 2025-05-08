@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Box, Container, Typography } from "@mui/material";
-import testimonialTableImage from "../assets/testimonial.jpg"; // Replace
+import testimonialTableImage from "../assets/testimonial.JPG"; // Replace
 
 const TestimonialSection = () => {
   return (

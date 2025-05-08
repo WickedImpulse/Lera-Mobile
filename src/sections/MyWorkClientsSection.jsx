@@ -1,8 +1,8 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
-import workClient1 from "../assets/client1.jpg";
-import workClient2 from "../assets/client2.jpg";
-import workClient3 from "../assets/client3.jpg";
-import workClient4 from "../assets/client4.jpg";
+import workClient1 from "../assets/client1.JPG";
+import workClient2 from "../assets/client2.JPG";
+import workClient3 from "../assets/client3.JPG";
+import workClient4 from "../assets/client4.JPG";
 
 const images = [
   { src: workClient1, alt: "Client in trench coat by car" },

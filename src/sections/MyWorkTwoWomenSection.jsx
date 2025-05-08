@@ -1,8 +1,8 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
-import workTwoWomen1 from "../assets/twoWomen1.jpg";
-import workTwoWomen2 from "../assets/twoWomen2.jpg";
-import workTwoWomen3 from "../assets/twoWomen3.jpg";
-import workTwoWomen4 from "../assets/twoWomen4.jpg";
+import workTwoWomen1 from "../assets/twoWomen1.JPG";
+import workTwoWomen2 from "../assets/twoWomen2.JPG";
+import workTwoWomen3 from "../assets/twoWomen3.JPG";
+import workTwoWomen4 from "../assets/twoWomen4.JPG";
 
 const images = [
   { src: workTwoWomen1, alt: "Two women in field" },

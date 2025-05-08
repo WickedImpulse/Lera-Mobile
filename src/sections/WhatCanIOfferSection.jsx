@@ -1,6 +1,6 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
-import offerStreet1 from "../assets/offer1.jpg"; // Replace
-import offerStreet2 from "../assets/offer2.jpg";
+import offerStreet1 from "../assets/offer1.JPG"; // Replace
+import offerStreet2 from "../assets/offer2.JPG";
 
 const offers = [
   {

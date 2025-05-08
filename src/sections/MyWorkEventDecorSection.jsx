@@ -3,9 +3,9 @@ import eventDecorToast from "../assets/BoatVideo.mp4";
 import {
   default as eventDecorTable1,
   default as eventDecorTable2,
-} from "../assets/decor2.jpg";
-import eventDecorTable3 from "../assets/decor3.jpg";
-import eventDecorTable4 from "../assets/decor4.jpg";
+} from "../assets/decor2.JPG";
+import eventDecorTable3 from "../assets/decor3.JPG";
+import eventDecorTable4 from "../assets/decor4.JPG";
 
 const MyWorkEventDecorSection = () => {
   return (
