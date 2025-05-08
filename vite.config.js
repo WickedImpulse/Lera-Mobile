@@ -13,4 +13,16 @@ export default defineConfig({
     "**/*.jpeg",
     "**/*.MOV",
   ],
+  resolve: {
+    preserveSymlinks: true,
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ["react", "react-dom", "@mui/material"],
+        },
+      },
+    },
+  },
 });

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+*.{jpg,jpeg,JPG,JPEG} binary
+*.{png,PNG} binary
+*.{gif,GIF} binary
+*.{mp4,MP4} binary 

@@ -1,7 +1,7 @@
 import { Box, Container, Divider, Grid, Typography } from "@mui/material";
 import videoFestiveDecor from "../assets/BeachHotel.mp4";
 import videoBrownsGastro from "../assets/Browns.mp4";
-import videoFbConcept from "../assets/isClinical.mp4";
+import videoFbConcept from "../assets/IsClinical.mp4";
 import videoLkInterior from "../assets/LKInterior.mp4";
 
 const videoItems = [
