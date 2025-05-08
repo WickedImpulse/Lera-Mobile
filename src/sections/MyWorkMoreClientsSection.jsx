@@ -1,10 +1,5 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
-import {
-  default as moreClientsBw,
-  default as moreClientsCar1,
-  default as moreClientsCar2,
-  default as moreClientsFur,
-} from "../assets/header.jpg";
+import headerImage from "../assets/header.JPG";
 
 const MyWorkMoreClientsSection = () => {
   return (
@@ -38,7 +33,7 @@ const MyWorkMoreClientsSection = () => {
       </Box>
       <Box
         component="img"
-        src={moreClientsFur}
+        src={headerImage}
         alt="Client in fur coat"
         sx={{
           width: "100%",
@@ -46,7 +41,7 @@ const MyWorkMoreClientsSection = () => {
           objectFit: "cover",
           mb: 2,
           aspectRatio: "4/3",
-        }} // Adjust
+        }}
       />
       <Grid container spacing={2}>
         <Grid item xs={7}>
@@ -54,7 +49,7 @@ const MyWorkMoreClientsSection = () => {
           {/* Left image takes more space */}
           <Box
             component="img"
-            src={moreClientsCar1}
+            src={headerImage}
             alt="Client in car"
             sx={{
               width: "100%",
@@ -69,7 +64,7 @@ const MyWorkMoreClientsSection = () => {
           {/* Right image */}
           <Box
             component="img"
-            src={moreClientsBw}
+            src={headerImage}
             alt="Client black and white portrait"
             sx={{
               width: "100%",
@@ -84,7 +79,7 @@ const MyWorkMoreClientsSection = () => {
           {/* Full width bottom image */}
           <Box
             component="img"
-            src={moreClientsCar2}
+            src={headerImage}
             alt="Client in car looking back"
             sx={{
               width: "100%",
