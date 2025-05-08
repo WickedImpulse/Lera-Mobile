@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Box, Container, Typography } from "@mui/material";
-import aboutMeCarImage from "../assets/header.JPG"; // Replace
+import aboutMeCarImage from "../assets/header.jpg"; // Replace
 
 const AboutMeSection = () => {
   return (
