@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Box, Container, Typography } from "@mui/material";
-import aboutMeCarImage from "../assets/header.jpg"; // Replace
+import aboutMeCarImage from "../assets/header.JPG"; // Replace
 
 const AboutMeSection = () => {
   return (
@@ -71,7 +71,7 @@ const AboutMeSection = () => {
           maxWidth: "100%",
           height: "auto",
           maxHeight: "500px",
-          objectFit: "fill",
+          objectFit: "contain",
           border: "10px solid white", // Simulates the border from the image
           boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
         }}

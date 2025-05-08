@@ -1,5 +1,5 @@
 import { Box, Container, Divider, Typography } from "@mui/material";
-import heroModelImage from "../assets/header.jpg"; // Replace with your image
+import heroModelImage from "../assets/header.JPG"; // Replace with your image
 
 const HeroSection = () => {
   return (
@@ -28,8 +28,7 @@ const HeroSection = () => {
             sx={{
               width: "100%",
               height: "100%",
-              objectFit: "cover",
-              objectPosition: "center",
+              objectFit: "contain",
             }}
           />
         </Box>
